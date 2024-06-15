@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--link bootstrap css-->
+  <link href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <!--css-->
+  <link rel="stylesheet" href="styles.css">
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+  <div class="container text-center">
+    <h1 id="turn-indicator">X's turn</h1>
+    <div class="grid" id="grid">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+    </div>
+    <button class="btn btn-primary" id="reset-button">Reset</button>
+    <div class="alert alert-success hidden" id="alert" role="alert">
+        <span id="alert-message"></span>
+    </div>
+</div>
+
+  
+
+  <!--linked jquery-->
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <!--linked bootstrap js-->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <!--linked js-->
+  <script src="index.js"></script>
+</body>
+</html>
