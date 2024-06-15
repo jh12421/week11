@@ -1,0 +1,22 @@
+/*styling for the game grid*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+  justify-content: center;
+  margin: 20px auto;
+}
+/*styling for each cell*/
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+/*class to hide the bootstrap alert*/
+.hidden {
+  display: none;
+}
